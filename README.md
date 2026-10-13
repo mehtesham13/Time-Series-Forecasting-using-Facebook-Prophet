@@ -33,16 +33,16 @@ NYC electric consumption records pulled from the NYC Open Data API, cleaned (mis
 
 | File | Contents |
 |---|---|
-| `NYC_Electricity_consumtion_predictibility_usiny_FBProphet2---.ipynb` | Data pull, cleaning, models and evaluation |
+| `nyc_electricity_forecasting.ipynb` | Data pull, cleaning, models and evaluation |
 | `NYC Electricity Consumption Predictability.pptx` | Presentation of results |
 
 ## How to run
 
 ```bash
-git clone https://github.com/mehtesham13/Time-Series-Forecasting-using-Facebook-Prophet.git
-cd Time-Series-Forecasting-using-Facebook-Prophet
+git clone https://github.com/mehtesham13/nyc-electricity-forecasting.git
+cd nyc-electricity-forecasting
 pip install prophet pandas numpy matplotlib seaborn scikit-learn statsmodels
-jupyter notebook
+jupyter notebook nyc_electricity_forecasting.ipynb
 ```
 
 Author: Muhammad Ehtesham · [LinkedIn](https://www.linkedin.com/in/muhammad-ehtesham-dsa)
